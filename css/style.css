@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 body{
     margin: 0px;
-    background-image: url(../background.jpg);
+    background-image: url(../images/background.jpg);
     height: 100vh;
     background-size: cover;
+    font-family: 'Roboto Mono', monospace;
 }
 
 header{
@@ -15,7 +18,7 @@ header{
 
 .header-content{
     position: absolute;
-    top: 12vh;
+    top: 7vh;
     margin-left: 3vw;
     margin-right: 3vw;
 }
@@ -25,4 +28,35 @@ header{
     font-size: 10vmin;
     margin: 0;
     text-transform: uppercase;;
+}
+
+.container1{
+    position: absolute;
+    left: 60vmin;
+    top: 10vh;
+    height: 80vh;
+}
+
+.container2{
+    position: absolute;
+    top: 10vh;
+    height: 80vh;
+    left: 120vmin;
+}
+
+.card{
+    width: 20vw;
+    height: 24vh;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    margin-bottom: 3.5vh;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
