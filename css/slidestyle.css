@@ -1,9 +1,10 @@
 .container {
-	height: 450px;
-	width: 80%;
-	position: relative;
-	border: 1px solid black;
-	top: 140px;
+	height: 100%;
+	width: 100%;
+	position: center;
+	background-size: cover;
+	/*border: 1px solid black;
+	
 }
 
 /*.carousel-inner > .item > img,*/
@@ -13,31 +14,32 @@
   }
 
 .cont {
-	height: 450px;
-	width: 80%;
-	position: relative;
-	/*border: 1px solid black;*/
-	top: -20px;
+	 position: center;
+ 	 height:90%;
+    width:90%;
 }
-
-
-
-
-.ro {
+.ro { 
 	display: flex;
-	margin-left: 100px;
-	margin-right: 50px;
-	margin-top: 30px;
-	justify-content: space-around;
-}
-	
-#img1 {
-	width: 150px;
-	height:100px;
-	/*width: 100%;*/
-	/*height: 100%;*/
-	border: 3px solid black;	
-}
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+ 	margin-bottom: 20px;
+ 	justify-content: space-around;
+ } 
+ 	 
+ #img1 { 
+ 	width: 120px; 
+ 	height:150px;  	/*width: 100%;*/ 
+ 	/*height: 100%;*/ 
+ 	/*border: 3px solid black;*/	
+ 	object-fit: contain; 
+ } 
+
+
+
+
+
+
 
 
 
